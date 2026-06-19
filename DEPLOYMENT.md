@@ -7,14 +7,14 @@ preserving paths and query strings.
 
 ## 1. Publish the Git repository
 
-Create an empty repository on GitHub named `daniel-zhang-portfolio`. Do not add
+Create an empty repository on GitHub named `daniel-portfolio`. Do not add
 a README, `.gitignore`, or license in GitHub because those files already exist
 locally.
 
 From this project directory:
 
 ```bash
-git remote add origin https://github.com/YOUR-GITHUB-USERNAME/daniel-zhang-portfolio.git
+git remote add origin https://github.com/YOUR-GITHUB-USERNAME/daniel-portfolio.git
 git push -u origin main
 ```
 
@@ -39,7 +39,7 @@ Do not delete existing email DNS records.
 
 1. Open **Workers & Pages**.
 2. Choose **Create application → Pages → Connect to Git**.
-3. Authorize GitHub and select `daniel-zhang-portfolio`.
+3. Authorize GitHub and select `daniel-portfolio`.
 4. Use:
    - Production branch: `main`
    - Framework preset: `Vite`
