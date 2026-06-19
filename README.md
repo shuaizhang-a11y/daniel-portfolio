@@ -54,5 +54,5 @@ Cloudflare Pages settings:
 - Root directory: blank
 - Environment variables: none
 
-`public/_redirects` supplies SPA route fallback for direct visits to React
-routes. `public/_headers` adds security and cache headers.
+`wrangler.jsonc` supplies SPA route fallback for direct visits to React routes.
+`public/_headers` adds security and cache headers.
