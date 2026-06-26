@@ -60,6 +60,3 @@ export const awards = [
   { year: 'TBC', type: 'Exhibition', title: 'Marco Polo 700th exhibition', detail: '[Add work and dates]' },
   { year: 'TBC', type: 'Exhibition', title: 'LAC Gallery exhibition', detail: '[Add work and dates]' },
 ]
-
-export const skills = ['Architectural design', 'Computational design', 'Parametric modelling', 'AI workflows', 'Environmental analysis', 'BIM workflows', 'Data-driven design', 'Architectural visualisation']
-export const software = ['Rhino', 'Grasshopper', 'Revit', 'Python', 'GhPython', 'ComfyUI', 'Adobe Creative Suite', '[Add software]']

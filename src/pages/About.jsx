@@ -1,17 +1,41 @@
-import { skills, software } from '../data/site'
+import { Link } from 'react-router-dom'
+
+const areas = [
+  'Architecture and public space',
+  'Landscape-integrated design',
+  'Computational design',
+  'AI-assisted design research',
+  'Architectural visualisation',
+  'Spatial storytelling',
+]
 
 export default function About() {
-  return <div className="inner-page">
-    <div className="page-title"><span className="eyebrow">Profile</span><h1>About</h1></div>
-    <div className="about-hero">
-      <div className="portrait-placeholder"><span>Portrait<br />placeholder</span></div>
-      <div><p className="display-copy">Shuai “Daniel” Zhang is an architectural designer working across <em>architecture, computation and AI.</em></p><p>Based in Melbourne, Australia, his interests include parametric design, digital workflows, artificial intelligence, environmental analysis, BIM and architectural visualisation.</p><p>This biography is intentionally concise and uses only supplied information. Replace it with your full professional biography when ready.</p><a className="button-link" href="/documents/REPLACE-WITH-CV.txt" download>Download CV ↘</a></div>
-    </div>
-    <div className="profile-sections">
-      <section><span className="eyebrow">Skills</span><div className="tag-list">{skills.map(x => <span key={x}>{x}</span>)}</div></section>
-      <section><span className="eyebrow">Software</span><div className="tag-list">{software.map(x => <span key={x}>{x}</span>)}</div></section>
-      <section><span className="eyebrow">Selected experience</span><div className="placeholder-list"><p>[Job title] <span>[Practice · Location · Dates]</span></p><p>[Job title] <span>[Practice · Location · Dates]</span></p></div></section>
-      <section><span className="eyebrow">Education</span><div className="placeholder-list"><p>[Degree] <span>[Institution · Location · Year]</span></p></div></section>
-    </div>
+  return <div className="inner-page studio-profile">
+    <section className="studio-hero">
+      <span className="eyebrow">Studio profile</span>
+      <h1>Architecture, computation and atmosphere.</h1>
+      <p>Shuai Zhang’s work explores the intersection of architecture, landscape, computation and visual culture. The projects presented here investigate atmosphere, material presence and spatial experience through built-form studies, public space proposals, computational design processes and image-based architectural research.</p>
+    </section>
+
+    <section className="studio-section">
+      <span className="eyebrow">Approach</span>
+      <p>The work is shaped by a careful balance between spatial clarity, environmental sensitivity and digital experimentation. Across architecture, public space and computational research, the practice focuses on creating calm, legible and emotionally resonant spaces that connect people, landscape and atmosphere.</p>
+    </section>
+
+    <section className="studio-section studio-areas">
+      <span className="eyebrow">Areas of Work</span>
+      <div>{areas.map((area) => <p key={area}>{area}</p>)}</div>
+    </section>
+
+    <section className="studio-section">
+      <span className="eyebrow">Recognition</span>
+      <p>Selected works have been recognised by international design awards and featured by design publications including MUSE Design Awards, DNA Paris Design Awards, International Design Awards, German Design Award, Architecture MasterPrize, New York Architectural Design Awards and Designboom.</p>
+      <Link className="text-link" to="/awards">Awards + press <span>→</span></Link>
+    </section>
+
+    <section className="studio-contact">
+      <p>For collaborations, exhibitions, publications or design enquiries, please get in touch.</p>
+      <Link to="/contact">Contact <span>→</span></Link>
+    </section>
   </div>
 }

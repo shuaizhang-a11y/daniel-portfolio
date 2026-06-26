@@ -27,10 +27,9 @@ The static production output is written to `dist/`.
 ## Updating content
 
 - Projects: edit `src/data/projects.js`.
-- Awards and skills: edit `src/data/site.js`.
-- Biography, experience and education: edit `src/pages/About.jsx`.
+- Awards and press: edit `src/data/site.js`.
+- Studio profile: edit `src/pages/About.jsx`.
 - Contact details and social links: edit `src/pages/Contact.jsx`.
-- CV: add the final PDF to `public/documents/` and update the About page link.
 - Images: add optimized files to `public/images/`, then update each project's
   `image` and `alt` values.
 - Open Graph image and metadata: edit `index.html`.
