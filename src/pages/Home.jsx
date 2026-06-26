@@ -17,19 +17,19 @@ export default function Home() {
     </section>
 
     <section className="intro-band">
-      <p className="display-copy">I design architecture through the combined lenses of <em>space, systems and computation.</em></p>
-      <p>Based in Melbourne, my work moves between architectural design, parametric workflows, artificial intelligence and visual communication.</p>
+      <p className="display-copy">Spatial work shaped by <em>architecture, landscape and computation.</em></p>
+      <p>A design practice exploring public space, environmental atmosphere, computational process and image-based architectural research.</p>
     </section>
 
     <section className="page-section" id="selected">
-      <SectionHeader number="01" title="Selected work" text="Projects and research across architecture, computational design and emerging technologies." />
+      <SectionHeader number="01" title="Selected work" text="Projects and research across architecture, public space, computational design and emerging technologies." />
       <div className="project-list">{projects.slice(0, 4).map((project, index) => <ProjectCard key={project.slug} project={project} index={index} />)}</div>
       <Link className="text-link" to="/work">View all projects <span>→</span></Link>
     </section>
 
     <section className="dark-section">
       <SectionHeader number="02" title="Recognition" text="Selected awards, exhibitions and editorial coverage." />
-      <div className="recognition-list">{awards.slice(0, 5).map((item) => {
+      <div className="recognition-list">{awards.slice(0, 6).map((item) => {
         const content = <><span>{item.year}</span><strong>{item.title}</strong><span>{item.detail}</span></>
         return item.url ? <a className="recognition-row" key={item.title} href={item.url} target="_blank" rel="noopener noreferrer">{content}</a> : <div className="recognition-row" key={item.title}>{content}</div>
       })}</div>
@@ -37,9 +37,9 @@ export default function Home() {
     </section>
 
     <section className="bio-section">
-      <SectionHeader number="03" title="Profile" />
-      <div className="bio-grid"><p className="display-copy">Shuai “Daniel” Zhang is an architectural designer interested in how <em>new tools reshape design thinking.</em></p><div><p>His practice explores the productive overlap between architecture, computation and artificial intelligence, from parametric systems and digital workflows to visualisation and spatial research.</p><Link className="text-link" to="/about">Read profile <span>→</span></Link></div></div>
+      <SectionHeader number="03" title="Studio Profile" />
+      <div className="bio-grid"><p className="display-copy">Daniel Zhang develops architectural work through <em>clarity, atmosphere and design research.</em></p><div><p>The practice moves between architecture, landscape, computation and visual culture, with a focus on calm spatial experiences and legible design systems.</p><Link className="text-link" to="/about">Read profile <span>→</span></Link></div></div>
     </section>
-    <section className="contact-banner"><p>Have a project, opportunity or idea in mind?</p><Link to="/contact">Let’s talk <span>→</span></Link></section>
+    <section className="contact-banner"><p>For collaborations, exhibitions, publications or design enquiries.</p><Link to="/contact">Contact <span>→</span></Link></section>
   </>
 }

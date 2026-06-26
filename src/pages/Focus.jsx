@@ -23,7 +23,7 @@ export default function Focus({ mode }) {
   return <div className="inner-page focus-page">
     <div className="page-title"><span className="eyebrow">{page.eyebrow}</span><h1>{page.title}</h1><p>{page.intro}</p></div>
     <div className="topic-grid">{page.topics.map((topic, i) => <div key={topic}><span>{String(i + 1).padStart(2, '0')}</span><p>{topic}</p></div>)}</div>
-    <div className="focus-statement"><span className="eyebrow">Approach</span><p className="display-copy">Computation is most useful when it does more than automate—it should <em>open up a richer design conversation.</em></p></div>
+    <div className="focus-statement"><span className="eyebrow">Approach</span><p className="display-copy">Computation is most useful when it does more than automate; it should <em>open up a richer design conversation.</em></p></div>
     <div className="project-list">{page.items.map((project, index) => <ProjectCard key={project.slug} project={project} index={index} />)}</div>
   </div>
 }

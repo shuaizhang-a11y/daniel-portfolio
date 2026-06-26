@@ -1,1 +1,0 @@
-Replace this file with Shuai Zhang's PDF CV and update the link in src/pages/About.jsx.

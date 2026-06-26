@@ -1,7 +1,7 @@
-# Shuai Zhang — Portfolio
+# Daniel Zhang — Portfolio
 
-Responsive React/Vite portfolio for architectural and computational designer
-Shuai (Daniel) Zhang.
+Responsive React/Vite website for Daniel Zhang’s architecture, computation and
+design research work.
 
 ## Requirements
 
@@ -35,9 +35,8 @@ The static production output is written to `dist/`.
 - Open Graph image and metadata: edit `index.html`.
 - Permanent routes: update `public/sitemap.xml`.
 
-Bracketed text is intentionally placeholder content. The current architectural
-images are original AI-generated placeholders and should be replaced with
-approved project imagery before final professional publication.
+Project content, awards and imagery are maintained through the source files
+listed above.
 
 ## Deployment
 

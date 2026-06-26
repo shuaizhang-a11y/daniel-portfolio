@@ -14,7 +14,7 @@ export default function About() {
     <section className="studio-hero">
       <span className="eyebrow">Studio profile</span>
       <h1>Architecture, computation and atmosphere.</h1>
-      <p>Shuai Zhang’s work explores the intersection of architecture, landscape, computation and visual culture. The projects presented here investigate atmosphere, material presence and spatial experience through built-form studies, public space proposals, computational design processes and image-based architectural research.</p>
+      <p>Daniel Zhang’s work explores the intersection of architecture, landscape, computation and visual culture. The projects presented here investigate atmosphere, material presence and spatial experience through built-form studies, public space proposals, computational design processes and image-based architectural research.</p>
     </section>
 
     <section className="studio-section">

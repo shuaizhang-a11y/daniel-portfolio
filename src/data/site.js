@@ -55,8 +55,4 @@ export const awards = [
     detail: 'Steps of Tranquility',
     url: 'https://muse.international/index/shuai-zhang-builds-with-nature-in-mind-in-steps-of-tranquility/',
   },
-  { year: 'TBC', type: 'Exhibition', title: 'Kyoto Horizon exhibition', detail: '[Add work and dates]' },
-  { year: 'TBC', type: 'Exhibition', title: 'CICA Museum exhibition', detail: '[Add work and dates]' },
-  { year: 'TBC', type: 'Exhibition', title: 'Marco Polo 700th exhibition', detail: '[Add work and dates]' },
-  { year: 'TBC', type: 'Exhibition', title: 'LAC Gallery exhibition', detail: '[Add work and dates]' },
 ]

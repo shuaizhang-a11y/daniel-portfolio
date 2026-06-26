@@ -21,8 +21,8 @@ export default function Layout({ children }) {
   return (
     <div className="site-shell">
       <header className="header">
-        <Link className="brand" to="/" aria-label="Shuai Zhang home">
-          <span>SZ</span><span>Shuai Zhang</span>
+        <Link className="brand" to="/" aria-label="Daniel Zhang home">
+          <span>DZ</span>
         </Link>
         <button className="menu-button" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="Toggle navigation">
           <span>{open ? 'Close' : 'Menu'}</span>
@@ -33,7 +33,7 @@ export default function Layout({ children }) {
       </header>
       <main>{children}</main>
       <footer className="footer">
-        <div><span className="eyebrow">Shuai Zhang</span><p>Architecture, computation<br />and artificial intelligence.</p></div>
+        <div><span className="eyebrow">Daniel Zhang</span><p>Architecture, computation<br />and artificial intelligence.</p></div>
         <div className="footer-links"><Link to="/work">Selected work</Link><Link to="/about">Profile</Link><Link to="/contact">Start a conversation</Link></div>
         <div className="footer-meta"><span>Melbourne, Australia</span><span>© {new Date().getFullYear()}</span></div>
       </footer>
