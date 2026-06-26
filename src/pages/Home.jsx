@@ -9,7 +9,7 @@ export default function Home() {
 
   return <>
     <section className="hero">
-      <img src={featuredProject.image} alt={featuredProject.alt} />
+      <img src={featuredProject.image} alt={featuredProject.alt} width={featuredProject.width} height={featuredProject.height} fetchPriority="high" />
       <div className="hero-shade" />
       <div className="hero-title"><p>Architectural Designer · Computational Designer</p><span>Architecture, computation and artificial intelligence</span></div>
       <div className="hero-index"><span>Featured project</span><span>{featuredProject.title}<br />Burnaby · 2025</span></div>

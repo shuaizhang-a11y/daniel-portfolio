@@ -50,7 +50,7 @@ export const awards = [
   },
   {
     year: '2025',
-    type: 'Press',
+    type: 'Interview',
     title: 'MUSE Interview',
     detail: 'Steps of Tranquility',
     url: 'https://muse.international/index/shuai-zhang-builds-with-nature-in-mind-in-steps-of-tranquility/',

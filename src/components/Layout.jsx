@@ -33,8 +33,8 @@ export default function Layout({ children }) {
       </header>
       <main>{children}</main>
       <footer className="footer">
-        <div><span className="eyebrow">Daniel Zhang</span><p>Architecture, computation<br />and artificial intelligence.</p></div>
-        <div className="footer-links"><Link to="/work">Selected work</Link><Link to="/about">Profile</Link><Link to="/contact">Start a conversation</Link></div>
+        <div><span className="eyebrow">Daniel Zhang</span><p>Architecture · Spatial Design · Computation</p></div>
+        <div className="footer-links"><Link to="/contact">Contact</Link><a href="mailto:hello@danielshuaizhang.com">hello@danielshuaizhang.com</a></div>
         <div className="footer-meta"><span>Melbourne, Australia</span><span>© {new Date().getFullYear()}</span></div>
       </footer>
     </div>

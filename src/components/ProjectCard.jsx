@@ -4,7 +4,7 @@ export default function ProjectCard({ project, index = 0 }) {
   return (
     <article className="project-card" style={{ '--delay': `${index * 60}ms` }}>
       <Link to={`/work/${project.slug}`} className="project-image-wrap">
-        <img src={project.image} alt={project.alt} loading="lazy" decoding="async" />
+        <img src={project.image} alt={project.alt} width={project.width} height={project.height} loading="lazy" decoding="async" />
         <span className="view-label">View project →</span>
       </Link>
       <div className="project-card-meta">
