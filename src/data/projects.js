@@ -5,15 +5,33 @@ export const projects = [
     location: 'Burnaby, Canada',
     year: '2025',
     category: 'Architecture',
-    type: 'Public Space',
-    image: '/images/steps-of-tranquility.webp',
-    alt: 'Terraced stone and glass cultural platform in a misty landscape',
+    type: 'Architecture / Public Space',
+    image: '/images/steps-of-tranquility-hero.png',
+    alt: 'Steps of Tranquility lakeside glass pavilion at dusk with water reflections',
     featured: true,
-    description: 'A terraced stone and glass cultural platform combining an amphitheatre, public walkway and gathering space.',
+    description: 'A terraced stone, glass and landscape-integrated cultural platform set at the edge of water. The project combines amphitheatre seating, public circulation, gathering space and transparent interior rooms into a calm lakeside architectural experience.',
     role: '[Add your role and collaborators]',
     concept: 'The proposal treats circulation as civic architecture. A continuous sequence of broad stone steps shifts between movement, pause and performance, creating a public room without walls.',
     method: 'The terraced geometry was developed as a repeatable system balancing sightlines, accessible routes, public circulation and the changing ground plane. Replace this text with your project-specific computational methodology.',
-    recognition: ['2025 MUSE Design Awards — Platinum', '2025 New York Architectural Design Awards — Gold', '2025 A’ Design Award — Silver', 'Featured by Designboom'],
+    recognition: [
+      {
+        title: '2025 MUSE Design Awards — Platinum',
+        url: 'https://design.museaward.com/winners-info.php?id=29103',
+      },
+      {
+        title: '2025 New York Architectural Design Awards — Gold',
+        url: 'https://nyarchitectureawards.com/winner-info.php?id=797',
+      },
+      {
+        title: '2025 A’ Design Award — Silver',
+        // TODO: Add the official A’ Design Award project URL when confirmed.
+        url: '',
+      },
+      {
+        title: 'Featured by Designboom',
+        url: 'https://www.designboom.com/architecture/terraced-stone-glass-platforms-shuai-zhang-sculptural-amphitheater-canada-06-25-2025/',
+      },
+    ],
   },
   {
     slug: 'woven-field',
