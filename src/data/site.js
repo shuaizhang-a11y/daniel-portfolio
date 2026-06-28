@@ -2,6 +2,18 @@ export const awards = [
   {
     year: '2025',
     type: 'Award',
+    title: 'iF Design Award',
+    detail: 'The Living Arch',
+  },
+  {
+    year: '2025',
+    type: 'Award',
+    title: 'Red Concept Design Award',
+    detail: 'The Living Arch',
+  },
+  {
+    year: '2025',
+    type: 'Award',
     title: 'DNA Paris Design Awards',
     detail: 'Steps of Tranquility',
     url: 'https://dna.paris/winner/zoom.php?eid=71-93779-25',

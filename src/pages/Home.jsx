@@ -5,7 +5,7 @@ import { projects } from '../data/projects'
 import { awards } from '../data/site'
 
 export default function Home() {
-  const featuredProject = projects.find(project => project.slug === 'steps-of-tranquility') ?? projects[0]
+  const featuredProject = projects.find(project => project.featured) ?? projects[0]
 
   return <>
     <section className="hero">

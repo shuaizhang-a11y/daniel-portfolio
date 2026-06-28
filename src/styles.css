@@ -88,6 +88,16 @@ img { display:block; width:100%; }
 .gallery-feature img { aspect-ratio:16/9; }
 .gallery-wide img { aspect-ratio:3/2; }
 .gallery-square img { aspect-ratio:1/1; }
+.project-editorial { padding:0 4vw; display:flex; flex-direction:column; gap:9vw; }
+.project-editorial-section { display:grid; grid-template-columns:.92fr 1.55fr; gap:6vw; align-items:start; }
+.project-editorial-section:nth-child(even) { grid-template-columns:1.55fr .92fr; }
+.project-editorial-section:nth-child(even) .project-editorial-copy { order:2; }
+.project-editorial-copy { position:sticky; top:104px; border-top:1px solid var(--line); padding-top:18px; }
+.project-editorial-copy p { margin:32px 0 0; max-width:620px; font-size:18px; line-height:1.72; }
+.project-editorial-image { margin:0; overflow:hidden; background:#d9d5cd; }
+.project-editorial-image img { height:100%; aspect-ratio:4/3; object-fit:cover; object-position:center center; }
+.project-editorial-image-large { grid-column:1/-1; }
+.project-editorial-image-large img { aspect-ratio:16/10; }
 .project-recognition { margin:10vw 4vw; border-top:1px solid var(--line); padding-top:25px; display:grid; grid-template-columns:1fr 2fr; }
 .recognition-link { grid-column:2; font-size:18px; border-bottom:1px solid var(--line); padding:0 0 18px; margin:0 0 18px; display:flex; justify-content:space-between; gap:20px; align-items:baseline; transition:border-color .2s, color .2s; }
 .recognition-link[href]:hover { border-bottom-color:var(--ink); }
@@ -188,6 +198,13 @@ form button { align-self:flex-start; border:0; background:var(--ink); color:var(
   .gallery-grid { grid-template-columns:1fr; padding:0 20px; }
   .gallery-feature,.gallery-wide { grid-column:auto; }
   .gallery-item img,.gallery-feature img,.gallery-wide img,.gallery-square img { min-height:0; aspect-ratio:4/3; }
+  .project-editorial { padding:0 20px; gap:80px; }
+  .project-editorial-section,.project-editorial-section:nth-child(even) { display:flex; flex-direction:column; gap:24px; }
+  .project-editorial-section:nth-child(even) .project-editorial-copy { order:0; }
+  .project-editorial-copy { position:static; }
+  .project-editorial-copy p { margin-top:24px; font-size:16px; line-height:1.75; }
+  .project-editorial-image-large { grid-column:auto; }
+  .project-editorial-image img,.project-editorial-image-large img { aspect-ratio:4/3; }
   .project-recognition { margin:80px 20px; grid-template-columns:1fr; }
   .recognition-link { grid-column:1; }
   .project-nav a { min-height:160px; padding:30px 20px; }
