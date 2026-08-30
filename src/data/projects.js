@@ -1,5 +1,23 @@
 export const projects = [
   {
+    slug: 'dz-planning-tools',
+    title: 'DZ Planning Tools',
+    location: 'Design Technology',
+    year: '2026',
+    category: 'Computational Design',
+    type: 'Design Technology · BIM Automation · Rhino · Revit',
+    tags: ['Computational Design', 'BIM Automation', 'Design Research'],
+    image: '/images/dz-planning-tools/workflow-mark.svg',
+    alt: 'Schematic diagram of Rhino structured planning data flowing through analysis and review into Revit',
+    width: 1600,
+    height: 1200,
+    description: 'Controlled planning-to-Revit publishing for architectural workflows. Rhino planning data becomes structured, reviewable Revit updates — with every change read before it is written.',
+    role: null,
+    concept: 'Architectural planning often begins in Rhino, while downstream BIM delivery requires structured Revit models. DZ Planning Tools creates a controlled review layer between the two.',
+    method: 'A Rhino-authored manifest is analysed against the open Revit model, turned into an explicit Change Plan of CREATE / UPDATE / SKIP / OBSOLETE actions, reviewed, and only then published inside a single Revit transaction group.',
+    recognition: [],
+  },
+  {
     slug: 'the-living-arch',
     title: 'The Living Arch',
     location: 'Burnaby, Canada',

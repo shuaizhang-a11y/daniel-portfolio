@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" role="img" aria-labelledby="dzTitle dzDesc">
+  <title id="dzTitle">DZ Planning Tools</title>
+  <desc id="dzDesc">Schematic diagram: Rhino structured planning data flowing through analysis and review into Revit.</desc>
+  <rect width="1600" height="1200" fill="#f2f0eb" />
+  <rect x="60" y="60" width="1480" height="1080" fill="none" stroke="rgba(23,23,22,.18)" stroke-width="1.5" />
+
+  <text x="100" y="150" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="2.5" fill="#171716" opacity=".72">COMPUTATIONAL DESIGN &#8226; BIM AUTOMATION</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#171716">
+    <text x="100" y="470" font-size="92" letter-spacing="-2">RHINO</text>
+    <text x="100" y="530" font-size="18" letter-spacing="1.5" opacity=".68">Structured planning data</text>
+
+    <line x1="100" y1="600" x2="1500" y2="600" stroke="rgba(23,23,22,.28)" stroke-width="1.5" />
+    <circle cx="100" cy="600" r="5" fill="#171716" />
+    <circle cx="500" cy="600" r="5" fill="#171716" />
+    <circle cx="900" cy="600" r="5" fill="#171716" />
+    <circle cx="1300" cy="600" r="5" fill="#171716" />
+    <path d="M1480 592 L1502 600 L1480 608 Z" fill="#171716" />
+
+    <text x="500" y="645" font-size="15" letter-spacing="1.5" text-anchor="middle" opacity=".72">ANALYSE</text>
+    <text x="900" y="645" font-size="15" letter-spacing="1.5" text-anchor="middle" opacity=".72">CHANGE PLAN</text>
+    <text x="1300" y="645" font-size="15" letter-spacing="1.5" text-anchor="middle" opacity=".72">REVIEW</text>
+
+    <text x="1500" y="760" font-size="92" letter-spacing="-2" text-anchor="end">REVIT</text>
+  </g>
+
+  <text x="100" y="1080" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="2" fill="#171716">DZ PLANNING TOOLS</text>
+  <text x="1500" y="1080" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="1" fill="#171716" text-anchor="end" opacity=".68">V1.2</text>
+</svg>
