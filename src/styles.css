@@ -202,6 +202,11 @@ form button { align-self:flex-start; border:0; background:var(--ink); color:var(
 .dz-download-size { font-size:11px; text-transform:uppercase; letter-spacing:.08em; opacity:.62; }
 .dz-sha { font-size:10px; text-transform:uppercase; letter-spacing:.08em; opacity:.7; line-height:1.8; }
 .dz-sha code { display:block; font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:11px; text-transform:none; letter-spacing:0; word-break:break-all; overflow-wrap:anywhere; opacity:1; margin-top:4px; }
+.dz-advanced { margin-top:1.5vw; border-top:1px solid var(--line); padding-top:22px; }
+.dz-advanced summary { cursor:pointer; font-size:12px; text-transform:uppercase; letter-spacing:.08em; opacity:.7; }
+.dz-advanced summary:hover { opacity:1; }
+.dz-advanced .dz-downloads-secondary { margin-top:18px; grid-template-columns:1fr; max-width:420px; }
+.dz-advanced > p { margin:14px 0 0; font-size:13px; line-height:1.6; opacity:.75; max-width:520px; }
 .dz-doc-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
 .dz-doc-card { background:var(--paper); padding:26px; display:flex; flex-direction:column; gap:14px; min-height:190px; transition:background .2s; }
 .dz-doc-card:hover { background:var(--warm); }

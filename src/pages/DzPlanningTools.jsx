@@ -69,7 +69,7 @@ export default function DzPlanningTools() {
       <p className="dz-hero-lead">Rhino planning data → controlled, reviewable Revit publishing.</p>
       <div className="dz-badges"><span className="dz-version">Version 1.2</span>{badges.map(b => <span key={b}>{b}</span>)}</div>
       <div className="dz-actions">
-        <a className="dz-btn" href="/downloads/DZPlanningTools-1.2.0-Setup.zip" download>Download V1.2</a>
+        <a className="dz-btn" href="/downloads/DZPlanningTools-1.2.0-Setup.exe" download>Download Installer</a>
         <a className="dz-btn dz-btn-outline" href="https://github.com/shuaizhang-a11y/daniel-portfolio/releases/download/dz-planning-tools-v1.2.0/DZPlanningTools-1.2.0-Sample.zip">Download Sample Project</a>
       </div>
       <div className="dz-actions dz-actions-secondary">
@@ -138,9 +138,19 @@ export default function DzPlanningTools() {
     <section className="dz-section dz-downloads-section">
       <span className="eyebrow">Download DZ Planning Tools V1.2</span>
       <div className="dz-downloads">
-        <Download name="Setup" filename="DZPlanningTools-1.2.0-Setup.zip" size="277 KB" sha="845429b9d85c2199c67a983d50dd68aa41aabe2dc118e0c0e55b6657eacd698d" href="/downloads/DZPlanningTools-1.2.0-Setup.zip" />
+        <Download name="Installer" filename="DZPlanningTools-1.2.0-Setup.exe" size="11.5 MB" sha="57055976be442784e8009280456f02ec94e7e2633d4446206dbdfcfc56b595d1" href="/downloads/DZPlanningTools-1.2.0-Setup.exe" />
         <Download name="Sample Project" filename="DZPlanningTools-1.2.0-Sample.zip" size="37.2 MB" sha="b0cbbbd28750020d8028619c0ba20139d3f76b4927a1377469ce090575833a18" href="https://github.com/shuaizhang-a11y/daniel-portfolio/releases/download/dz-planning-tools-v1.2.0/DZPlanningTools-1.2.0-Sample.zip" />
       </div>
+      <div className="dz-section-copy">
+        <p>The installer runs a per-user check for Revit 2025, Rhino 8 and Rhino.Inside.Revit, then installs with no administrator rights required.</p>
+      </div>
+      <details className="dz-advanced">
+        <summary>Advanced: ZIP package</summary>
+        <div className="dz-downloads dz-downloads-secondary">
+          <Download name="ZIP Package" filename="DZPlanningTools-1.2.0-Setup.zip" size="277 KB" sha="845429b9d85c2199c67a983d50dd68aa41aabe2dc118e0c0e55b6657eacd698d" href="/downloads/DZPlanningTools-1.2.0-Setup.zip" />
+        </div>
+        <p>The raw payload and Install.cmd, for offline installs or manual inspection. Most users want the installer above.</p>
+      </details>
       <a className="text-link" href="/downloads/SHA256SUMS.txt">SHA256SUMS.txt <span>→</span></a>
     </section>
 

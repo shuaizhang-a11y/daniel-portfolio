@@ -6,8 +6,15 @@ export const dzDocs = {
     blocks: [
       { type: 'p', text: 'Check System Requirements first.' },
       { type: 'h2', text: '1. Install' },
-      { type: 'p', text: 'Unpack the download, and from that folder run Install.cmd. It checks that Revit 2025, Rhino 8 and Rhino.Inside.Revit are present, installs the application to %LOCALAPPDATA%\\DZPlanningTools, re-reads every file it wrote and compares it against a checksum, and registers the Revit ribbon button.' },
+      { type: 'list', items: [
+        'Download DZPlanningTools-1.2.0-Setup.exe.',
+        'Run it — no extraction, no command prompt, no administrator rights.',
+        'Confirm the detected prerequisites on the first page.',
+        'Click Install.',
+      ] },
+      { type: 'p', text: 'Under the same wizard, this checks that Revit 2025, Rhino 8 and Rhino.Inside.Revit are present, installs the application to %LOCALAPPDATA%\\DZPlanningTools, re-reads every file it wrote and compares it against a checksum, and registers the Revit ribbon button — the exact steps Install.cmd has always run, now behind one double-click.' },
       { type: 'p', text: 'It ends with one line, and only one of these three: INSTALLATION COMPLETE, PAYLOAD INSTALLED — ADD-IN REGISTRATION FAILED, or INSTALLATION FAILED. Anything other than the first means the product will not appear in Revit. The usual cause of the second is Revit being open while installing — close it and run the installer again.' },
+      { type: 'p', text: 'Prefer the raw payload? The ZIP package (Install.cmd, run from an extracted folder) remains available under Advanced on the download page, and behaves identically.' },
       { type: 'h2', text: '2. Unpack the sample' },
       { type: 'p', text: 'Extract the sample archive anywhere you like. It stores no paths, so it works wherever you put it. It contains Planning_Source.3dm (the Rhino source geometry), project_manifest.json (what was exported from it), Sample_Tower.rvt (a clean Revit model to publish into) and a README.' },
       { type: 'p', text: 'Keep Planning_Source.3dm and project_manifest.json in the same folder. The product finds the source as the only .3dm beside the manifest.' },
